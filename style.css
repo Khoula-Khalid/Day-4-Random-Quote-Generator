@@ -1,0 +1,36 @@
+#quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px;
+}
+
+#image {
+  width: 200px;
+  height: 200px;
+  display: none;
+}
+
+#quote {
+  font-size: 50px;
+  font-style: bold;
+  margin-bottom: 20px;
+  color: black;
+}
+
+#author {
+  font-size: 36px;
+  font-style: italic;
+}
+
+#new-quote {
+  background-color: seagreen;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
